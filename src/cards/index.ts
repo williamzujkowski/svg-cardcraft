@@ -4,6 +4,7 @@ import { statsCard } from './stats.js';
 import { quoteCard } from './quote.js';
 import { demosceneCard } from './demoscene.js';
 import { tronCard } from './tron.js';
+import { vaporwaveCard } from './vaporwave.js';
 
 export const cards: Record<string, CardRenderer> = {
   hero: heroCard,
@@ -11,4 +12,5 @@ export const cards: Record<string, CardRenderer> = {
   quote: quoteCard,
   demoscene: demosceneCard,
   tron: tronCard,
+  vaporwave: vaporwaveCard,
 };
