@@ -56,3 +56,22 @@ TypeScript, Node.js 22+, zero runtime dependencies.
 ## License
 
 MIT
+
+---
+
+## Link Test — Which SVG embedding supports clickable links?
+
+### Method 1: Markdown img syntax (links probably stripped)
+![Test](./output/test-clickable.svg)
+
+### Method 2: HTML img tag (links stripped — img doesn't support interaction)
+<img src="./output/test-clickable.svg" width="400">
+
+### Method 3: HTML object tag (links should work — but may be stripped by GitHub)
+<object data="./output/test-clickable.svg" type="image/svg+xml" width="400"></object>
+
+### Method 4: Markdown link wrapping the whole image (the reliable fallback)
+[![Click me](./output/test-clickable.svg)](https://github.com/williamzujkowski)
+
+### Method 5: Direct SVG (inline — GitHub may sanitize)
+<!-- This won't render inline SVG on GitHub -->
