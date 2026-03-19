@@ -49,6 +49,42 @@
         ],
         "accentColor": "#06b6d4"
       }
+    },
+    {
+      "type": "demoscene",
+      "width": 900,
+      "height": 320,
+      "config": {
+        "name": "WILLIAM Z",
+        "taglines": [
+          "SECURITY ENGINEER",
+          "AI SYSTEMS BUILDER",
+          "HOMELAB OPERATOR",
+          "PUSHING PIXELS SINCE 2004"
+        ],
+        "scrolltext": "GREETS TO ANTHROPIC /// OPENAI /// GOOGLE /// NVIDIA /// THE ENTIRE DEMOSCENE /// HACK THE PLANET /// CODE IS ART /// 64K SHOULD BE ENOUGH FOR ANYBODY",
+        "palette": "industrial",
+        "buildingCount": 50,
+        "particleCount": 80
+      }
+    },
+    {
+      "type": "demoscene",
+      "width": 900,
+      "height": 320,
+      "config": {
+        "name": "NEXUS AGENTS",
+        "taglines": [
+          "28 MCP TOOLS",
+          "15 AI MODELS",
+          "5 PROVIDERS",
+          "ORCHESTRATE EVERYTHING"
+        ],
+        "scrolltext": "MULTI-MODEL ORCHESTRATION /// CONSENSUS VOTING /// ADAPTIVE ROUTING /// LINUCB BANDIT /// RESEARCH ENGINE /// 176 PAPERS TRACKED",
+        "palette": "neon",
+        "buildingCount": 45,
+        "particleCount": 70
+      }
     }
   ]
 }
