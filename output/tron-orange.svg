@@ -1,236 +1,82 @@
-<svg width="900" height="320" viewBox="0 0 900 320" xmlns="http://www.w3.org/2000/svg"
-  role="img" aria-label="NEXUS AGENTS — tron card">
-  <style>
-    @media (prefers-reduced-motion: reduce) {
-      * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; }
-    }
-  </style>
+<svg width="900" height="300" viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="NEXUS AGENTS">
+  <style>@media(prefers-reduced-motion:reduce){*{animation-duration:0.01ms!important;animation-iteration-count:1!important}}</style>
   <defs>
-    <linearGradient id="tronSky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#080400"/>
-      <stop offset="60%" stop-color="#1a0a00"/>
-      <stop offset="100%" stop-color="#080400"/>
-    </linearGradient>
-    <filter id="cycleGlow">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <filter id="textGlow">
-      <feGaussianBlur stdDeviation="2" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-    <radialGradient id="hGlow" cx="50%" cy="0%" r="80%">
-      <stop offset="0%" stop-color="#ff6600" stop-opacity="0.08"/>
-      <stop offset="100%" stop-color="#ff6600" stop-opacity="0"/>
-    </radialGradient>
+    <linearGradient id="ts" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#080400"/><stop offset="60%" stop-color="#1a0a00"/><stop offset="100%" stop-color="#080400"/></linearGradient>
+    <filter id="cg"><feGaussianBlur stdDeviation="4" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/></filter>
+    <filter id="tg"><feGaussianBlur stdDeviation="2" result="b"/><feComposite in="SourceGraphic" in2="b" operator="over"/></filter>
+    <radialGradient id="hg" cx="50%" cy="0%" r="80%"><stop offset="0%" stop-color="#ff6600" stop-opacity="0.08"/><stop offset="100%" stop-color="#ff6600" stop-opacity="0"/></radialGradient>
   </defs>
-
-  <!-- Background -->
-  <rect width="900" height="320" rx="12" fill="url(#tronSky)"/>
-
-  <!-- Horizon glow -->
-  <rect x="0" y="104" width="900" height="80" fill="url(#hGlow)"/>
-  <line x1="0" y1="144" x2="900" y2="144" stroke="#ff6600" stroke-width="1" opacity="0.4"/>
-
-  <!-- Grid plane -->
+  <rect width="900" height="300" rx="12" fill="url(#ts)"/>
+  <rect x="0" y="95" width="900" height="80" fill="url(#hg)"/>
+  <line x1="0" y1="135" x2="900" y2="135" stroke="#ff6600" stroke-width="1" opacity="0.4"/>
+  <g><line x1="0" y1="135" x2="900" y2="135" stroke="#331100" stroke-width="0.8" opacity="0.50"/>
+    <line x1="0" y1="135" x2="900" y2="135" stroke="#331100" stroke-width="0.8" opacity="0.48"/>
+    <line x1="0" y1="137" x2="900" y2="137" stroke="#331100" stroke-width="0.8" opacity="0.45"/>
+    <line x1="0" y1="141" x2="900" y2="141" stroke="#331100" stroke-width="0.8" opacity="0.43"/>
+    <line x1="0" y1="146" x2="900" y2="146" stroke="#331100" stroke-width="0.8" opacity="0.41"/>
+    <line x1="0" y1="153" x2="900" y2="153" stroke="#331100" stroke-width="0.8" opacity="0.38"/>
+    <line x1="0" y1="161" x2="900" y2="161" stroke="#331100" stroke-width="0.8" opacity="0.36"/>
+    <line x1="0" y1="170" x2="900" y2="170" stroke="#331100" stroke-width="0.8" opacity="0.34"/>
+    <line x1="0" y1="181" x2="900" y2="181" stroke="#331100" stroke-width="0.8" opacity="0.31"/>
+    <line x1="0" y1="194" x2="900" y2="194" stroke="#331100" stroke-width="0.8" opacity="0.29"/>
+    <line x1="0" y1="208" x2="900" y2="208" stroke="#331100" stroke-width="0.8" opacity="0.27"/>
+    <line x1="0" y1="223" x2="900" y2="223" stroke="#331100" stroke-width="0.8" opacity="0.24"/>
+    <line x1="0" y1="240" x2="900" y2="240" stroke="#331100" stroke-width="0.8" opacity="0.22"/>
+    <line x1="0" y1="258" x2="900" y2="258" stroke="#331100" stroke-width="0.8" opacity="0.20"/>
+    <line x1="0" y1="278" x2="900" y2="278" stroke="#331100" stroke-width="0.8" opacity="0.17"/>
+    <line x1="450" y1="135" x2="-450" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.10"/>
+    <line x1="450" y1="135" x2="-360" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.12"/>
+    <line x1="450" y1="135" x2="-270" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.15"/>
+    <line x1="450" y1="135" x2="-180" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.17"/>
+    <line x1="450" y1="135" x2="-90" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.20"/>
+    <line x1="450" y1="135" x2="0" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.22"/>
+    <line x1="450" y1="135" x2="90" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.25"/>
+    <line x1="450" y1="135" x2="180" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.27"/>
+    <line x1="450" y1="135" x2="270" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.30"/>
+    <line x1="450" y1="135" x2="360" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.32"/>
+    <line x1="450" y1="135" x2="450" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.35"/>
+    <line x1="450" y1="135" x2="540" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.32"/>
+    <line x1="450" y1="135" x2="630" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.30"/>
+    <line x1="450" y1="135" x2="720" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.27"/>
+    <line x1="450" y1="135" x2="810" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.25"/>
+    <line x1="450" y1="135" x2="900" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.22"/>
+    <line x1="450" y1="135" x2="990" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.20"/>
+    <line x1="450" y1="135" x2="1080" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.17"/>
+    <line x1="450" y1="135" x2="1170" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.15"/>
+    <line x1="450" y1="135" x2="1260" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.12"/>
+    <line x1="450" y1="135" x2="1350" y2="300" stroke="#331100" stroke-width="0.8" opacity="0.10"/></g>
   <g>
-    <line x1="0" y1="144" x2="900" y2="144" stroke="#331100" stroke-width="0.8" opacity="0.50"/>
-    <line x1="0" y1="145" x2="900" y2="145" stroke="#331100" stroke-width="0.8" opacity="0.48"/>
-    <line x1="0" y1="147" x2="900" y2="147" stroke="#331100" stroke-width="0.8" opacity="0.45"/>
-    <line x1="0" y1="151" x2="900" y2="151" stroke="#331100" stroke-width="0.8" opacity="0.43"/>
-    <line x1="0" y1="157" x2="900" y2="157" stroke="#331100" stroke-width="0.8" opacity="0.41"/>
-    <line x1="0" y1="164" x2="900" y2="164" stroke="#331100" stroke-width="0.8" opacity="0.38"/>
-    <line x1="0" y1="172" x2="900" y2="172" stroke="#331100" stroke-width="0.8" opacity="0.36"/>
-    <line x1="0" y1="182" x2="900" y2="182" stroke="#331100" stroke-width="0.8" opacity="0.34"/>
-    <line x1="0" y1="194" x2="900" y2="194" stroke="#331100" stroke-width="0.8" opacity="0.31"/>
-    <line x1="0" y1="207" x2="900" y2="207" stroke="#331100" stroke-width="0.8" opacity="0.29"/>
-    <line x1="0" y1="222" x2="900" y2="222" stroke="#331100" stroke-width="0.8" opacity="0.27"/>
-    <line x1="0" y1="239" x2="900" y2="239" stroke="#331100" stroke-width="0.8" opacity="0.24"/>
-    <line x1="0" y1="257" x2="900" y2="257" stroke="#331100" stroke-width="0.8" opacity="0.22"/>
-    <line x1="0" y1="276" x2="900" y2="276" stroke="#331100" stroke-width="0.8" opacity="0.20"/>
-    <line x1="0" y1="297" x2="900" y2="297" stroke="#331100" stroke-width="0.8" opacity="0.17"/>
-    <line x1="450" y1="144" x2="-450" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.10"/>
-    <line x1="450" y1="144" x2="-360" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.12"/>
-    <line x1="450" y1="144" x2="-270" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.15"/>
-    <line x1="450" y1="144" x2="-180" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.17"/>
-    <line x1="450" y1="144" x2="-90" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.20"/>
-    <line x1="450" y1="144" x2="0" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.22"/>
-    <line x1="450" y1="144" x2="90" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.25"/>
-    <line x1="450" y1="144" x2="180" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.27"/>
-    <line x1="450" y1="144" x2="270" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.30"/>
-    <line x1="450" y1="144" x2="360" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.32"/>
-    <line x1="450" y1="144" x2="450" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.35"/>
-    <line x1="450" y1="144" x2="540" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.32"/>
-    <line x1="450" y1="144" x2="630" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.30"/>
-    <line x1="450" y1="144" x2="720" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.27"/>
-    <line x1="450" y1="144" x2="810" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.25"/>
-    <line x1="450" y1="144" x2="900" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.22"/>
-    <line x1="450" y1="144" x2="990" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.20"/>
-    <line x1="450" y1="144" x2="1080" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.17"/>
-    <line x1="450" y1="144" x2="1170" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.15"/>
-    <line x1="450" y1="144" x2="1260" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.12"/>
-    <line x1="450" y1="144" x2="1350" y2="320" stroke="#331100" stroke-width="0.8" opacity="0.10"/>
-  </g>
-
-  <!-- Light cycles -->
-  <g>
-    
-    <!-- Cycle 0 glow -->
-    <path d="M 315,212 L 235,212 L 235,304 L 504,304" fill="none" stroke="#ff4400" stroke-width="6"
-          stroke-linecap="round" opacity="0.3" filter="url(#cycleGlow)"
-          stroke-dasharray="441" stroke-dashoffset="441">
-      <animate attributeName="stroke-dashoffset" from="441" to="0"
-               dur="4.401308430475183s" begin="1.048115541048901s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 0 core -->
-    <path d="M 315,212 L 235,212 L 235,304 L 504,304" fill="none" stroke="#ff6600" stroke-width="2"
-          stroke-linecap="round"
-          stroke-dasharray="441" stroke-dashoffset="441">
-      <animate attributeName="stroke-dashoffset" from="441" to="0"
-               dur="4.401308430475183s" begin="1.048115541048901s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 0 head dot -->
-    <circle r="3" fill="#ff6600" filter="url(#cycleGlow)">
-      <animateMotion dur="4.401308430475183s" begin="1.048115541048901s" repeatCount="indefinite" fill="freeze">
-        <mpath href="#cyclePath0"/>
-      </animateMotion>
-    </circle>
-    <path id="cyclePath0" d="M 315,212 L 235,212 L 235,304 L 504,304" fill="none" stroke="none"/>
-    <!-- Cycle 1 glow -->
-    <path d="M 223,182 L 491,182 L 491,149 L 383,149 L 383,149 L 219,149" fill="none" stroke="#cc0033" stroke-width="6"
-          stroke-linecap="round" opacity="0.3" filter="url(#cycleGlow)"
-          stroke-dasharray="574" stroke-dashoffset="574">
-      <animate attributeName="stroke-dashoffset" from="574" to="0"
-               dur="3.990187339411932s" begin="0.39120187721346156s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 1 core -->
-    <path d="M 223,182 L 491,182 L 491,149 L 383,149 L 383,149 L 219,149" fill="none" stroke="#ff0044" stroke-width="2"
-          stroke-linecap="round"
-          stroke-dasharray="574" stroke-dashoffset="574">
-      <animate attributeName="stroke-dashoffset" from="574" to="0"
-               dur="3.990187339411932s" begin="0.39120187721346156s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 1 head dot -->
-    <circle r="3" fill="#ff0044" filter="url(#cycleGlow)">
-      <animateMotion dur="3.990187339411932s" begin="0.39120187721346156s" repeatCount="indefinite" fill="freeze">
-        <mpath href="#cyclePath1"/>
-      </animateMotion>
-    </circle>
-    <path id="cyclePath1" d="M 223,182 L 491,182 L 491,149 L 383,149 L 383,149 L 219,149" fill="none" stroke="none"/>
-    <!-- Cycle 2 glow -->
-    <path d="M 477,228 L 369,228 L 369,185 L 206,185" fill="none" stroke="#cc9900" stroke-width="6"
-          stroke-linecap="round" opacity="0.3" filter="url(#cycleGlow)"
-          stroke-dasharray="316" stroke-dashoffset="316">
-      <animate attributeName="stroke-dashoffset" from="316" to="0"
-               dur="5.122195775795262s" begin="1.4198996775112391s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 2 core -->
-    <path d="M 477,228 L 369,228 L 369,185 L 206,185" fill="none" stroke="#ffcc00" stroke-width="2"
-          stroke-linecap="round"
-          stroke-dasharray="316" stroke-dashoffset="316">
-      <animate attributeName="stroke-dashoffset" from="316" to="0"
-               dur="5.122195775795262s" begin="1.4198996775112391s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 2 head dot -->
-    <circle r="3" fill="#ffcc00" filter="url(#cycleGlow)">
-      <animateMotion dur="5.122195775795262s" begin="1.4198996775112391s" repeatCount="indefinite" fill="freeze">
-        <mpath href="#cyclePath2"/>
-      </animateMotion>
-    </circle>
-    <path id="cyclePath2" d="M 477,228 L 369,228 L 369,185 L 206,185" fill="none" stroke="none"/>
-    <!-- Cycle 3 glow -->
-    <path d="M 415,240 L 251,240 L 251,305 L 514,305 L 514,250 L 377,250" fill="none" stroke="#00cc66" stroke-width="6"
-          stroke-linecap="round" opacity="0.3" filter="url(#cycleGlow)"
-          stroke-dasharray="684" stroke-dashoffset="684">
-      <animate attributeName="stroke-dashoffset" from="684" to="0"
-               dur="4.842854618647834s" begin="1.6813043873389688s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 3 core -->
-    <path d="M 415,240 L 251,240 L 251,305 L 514,305 L 514,250 L 377,250" fill="none" stroke="#00ff88" stroke-width="2"
-          stroke-linecap="round"
-          stroke-dasharray="684" stroke-dashoffset="684">
-      <animate attributeName="stroke-dashoffset" from="684" to="0"
-               dur="4.842854618647834s" begin="1.6813043873389688s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 3 head dot -->
-    <circle r="3" fill="#00ff88" filter="url(#cycleGlow)">
-      <animateMotion dur="4.842854618647834s" begin="1.6813043873389688s" repeatCount="indefinite" fill="freeze">
-        <mpath href="#cyclePath3"/>
-      </animateMotion>
-    </circle>
-    <path id="cyclePath3" d="M 415,240 L 251,240 L 251,305 L 514,305 L 514,250 L 377,250" fill="none" stroke="none"/>
-    <!-- Cycle 4 glow -->
-    <path d="M 883,274 L 880,274 L 880,219 L 743,219 L 743,305" fill="none" stroke="#cc00cc" stroke-width="6"
-          stroke-linecap="round" opacity="0.3" filter="url(#cycleGlow)"
-          stroke-dasharray="282" stroke-dashoffset="282">
-      <animate attributeName="stroke-dashoffset" from="282" to="0"
-               dur="6.925280980503885s" begin="2.4321670205572445s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 4 core -->
-    <path d="M 883,274 L 880,274 L 880,219 L 743,219 L 743,305" fill="none" stroke="#ff00ff" stroke-width="2"
-          stroke-linecap="round"
-          stroke-dasharray="282" stroke-dashoffset="282">
-      <animate attributeName="stroke-dashoffset" from="282" to="0"
-               dur="6.925280980503885s" begin="2.4321670205572445s" fill="freeze" repeatCount="indefinite"/>
-    </path>
-    <!-- Cycle 4 head dot -->
-    <circle r="3" fill="#ff00ff" filter="url(#cycleGlow)">
-      <animateMotion dur="6.925280980503885s" begin="2.4321670205572445s" repeatCount="indefinite" fill="freeze">
-        <mpath href="#cyclePath4"/>
-      </animateMotion>
-    </circle>
-    <path id="cyclePath4" d="M 883,274 L 880,274 L 880,219 L 743,219 L 743,305" fill="none" stroke="none"/>
-  </g>
-
-  <!-- Title -->
-  <text x="450" y="84" text-anchor="middle"
-        font-family="'JetBrains Mono', 'Courier New', monospace" font-size="44" font-weight="700"
-        fill="#ffffff" filter="url(#textGlow)" letter-spacing="8">
-    NEXUS AGENTS
-  </text>
-
-  <!-- Taglines -->
-  
-      <text x="450" y="119" text-anchor="middle"
-            font-family="'JetBrains Mono', monospace" font-size="16"
-            fill="#ff6600" letter-spacing="4" opacity="0">
-        28 MCP TOOLS
-        <animate attributeName="opacity" values="0;0;1;1;0;0"
-                 keyTimes="0;0.000;0.020;0.193;0.212;1"
-                 dur="12s" repeatCount="indefinite"/>
-      </text>
-      <text x="450" y="119" text-anchor="middle"
-            font-family="'JetBrains Mono', monospace" font-size="16"
-            fill="#ff6600" letter-spacing="4" opacity="0">
-        15 AI MODELS
-        <animate attributeName="opacity" values="0;0;1;1;0;0"
-                 keyTimes="0;0.250;0.270;0.443;0.463;1"
-                 dur="12s" repeatCount="indefinite"/>
-      </text>
-      <text x="450" y="119" text-anchor="middle"
-            font-family="'JetBrains Mono', monospace" font-size="16"
-            fill="#ff6600" letter-spacing="4" opacity="0">
-        CONSENSUS VOTING
-        <animate attributeName="opacity" values="0;0;1;1;0;0"
-                 keyTimes="0;0.500;0.520;0.693;0.713;1"
-                 dur="12s" repeatCount="indefinite"/>
-      </text>
-      <text x="450" y="119" text-anchor="middle"
-            font-family="'JetBrains Mono', monospace" font-size="16"
-            fill="#ff6600" letter-spacing="4" opacity="0">
-        ORCHESTRATE EVERYTHING
-        <animate attributeName="opacity" values="0;0;1;1;0;0"
-                 keyTimes="0;0.750;0.770;0.943;0.963;1"
-                 dur="12s" repeatCount="indefinite"/>
-      </text>
-
-  <!-- Scrolltext -->
-  <text y="310" font-family="'JetBrains Mono', monospace" font-size="10"
-        fill="#ff6600" letter-spacing="3" opacity="0.5">
-    MULTI-MODEL ORCHESTRATION /// ADAPTIVE ROUTING /// RESEARCH ENGINE /// THE GRID IS THE WAY
-    <animate attributeName="x" from="920" to="-900" dur="18s" repeatCount="indefinite"/>
-  </text>
-
-  <!-- Frame -->
-  <rect width="900" height="320" rx="12" fill="none" stroke="#ff6600" stroke-width="1" opacity="0.15"/>
+    <path d="M 315,175 L 566,175 L 566,248 L 767,248 L 767,285 L 635,285" fill="none" stroke="#ff4400" stroke-width="6" stroke-linecap="round" opacity="0.3" filter="url(#cg)" stroke-dasharray="695" stroke-dashoffset="695">
+      <animate attributeName="stroke-dashoffset" from="695" to="0" dur="4.401308430475183s" begin="0.48744656056078384s" fill="freeze" repeatCount="indefinite"/></path>
+    <path d="M 315,175 L 566,175 L 566,248 L 767,248 L 767,285 L 635,285" fill="none" stroke="#ff6600" stroke-width="2" stroke-linecap="round" stroke-dasharray="695" stroke-dashoffset="695">
+      <animate attributeName="stroke-dashoffset" from="695" to="0" dur="4.401308430475183s" begin="0.48744656056078384s" fill="freeze" repeatCount="indefinite"/></path>
+    <circle r="3" fill="#ff6600" filter="url(#cg)"><animateMotion dur="4.401308430475183s" begin="0.48744656056078384s" repeatCount="indefinite" fill="freeze"><mpath href="#cp0"/></animateMotion></circle>
+    <path id="cp0" d="M 315,175 L 566,175 L 566,248 L 767,248 L 767,285 L 635,285" fill="none" stroke="none"/>
+    <path d="M 222,219 L 93,219 L 93,167 L 20,167 L 20,140 L 20,140 L 20,140" fill="none" stroke="#cc0033" stroke-width="6" stroke-linecap="round" opacity="0.3" filter="url(#cg)" stroke-dasharray="283" stroke-dashoffset="283">
+      <animate attributeName="stroke-dashoffset" from="283" to="0" dur="3.990187339411932s" begin="1.5528375973162838s" fill="freeze" repeatCount="indefinite"/></path>
+    <path d="M 222,219 L 93,219 L 93,167 L 20,167 L 20,140 L 20,140 L 20,140" fill="none" stroke="#ff0044" stroke-width="2" stroke-linecap="round" stroke-dasharray="283" stroke-dashoffset="283">
+      <animate attributeName="stroke-dashoffset" from="283" to="0" dur="3.990187339411932s" begin="1.5528375973162838s" fill="freeze" repeatCount="indefinite"/></path>
+    <circle r="3" fill="#ff0044" filter="url(#cg)"><animateMotion dur="3.990187339411932s" begin="1.5528375973162838s" repeatCount="indefinite" fill="freeze"><mpath href="#cp1"/></animateMotion></circle>
+    <path id="cp1" d="M 222,219 L 93,219 L 93,167 L 20,167 L 20,140 L 20,140 L 20,140" fill="none" stroke="none"/>
+    <path d="M 477,211 L 666,211 L 666,285 L 861,285" fill="none" stroke="#cc9900" stroke-width="6" stroke-linecap="round" opacity="0.3" filter="url(#cg)" stroke-dasharray="458" stroke-dashoffset="458">
+      <animate attributeName="stroke-dashoffset" from="458" to="0" dur="5.122195775795262s" begin="1.366043640548014s" fill="freeze" repeatCount="indefinite"/></path>
+    <path d="M 477,211 L 666,211 L 666,285 L 861,285" fill="none" stroke="#ffcc00" stroke-width="2" stroke-linecap="round" stroke-dasharray="458" stroke-dashoffset="458">
+      <animate attributeName="stroke-dashoffset" from="458" to="0" dur="5.122195775795262s" begin="1.366043640548014s" fill="freeze" repeatCount="indefinite"/></path>
+    <circle r="3" fill="#ffcc00" filter="url(#cg)"><animateMotion dur="5.122195775795262s" begin="1.366043640548014s" repeatCount="indefinite" fill="freeze"><mpath href="#cp2"/></animateMotion></circle>
+    <path id="cp2" d="M 477,211 L 666,211 L 666,285 L 861,285" fill="none" stroke="none"/>
+    <path d="M 414,211 L 268,211 L 268,143 L 120,143" fill="none" stroke="#00cc66" stroke-width="6" stroke-linecap="round" opacity="0.3" filter="url(#cg)" stroke-dasharray="362" stroke-dashoffset="362">
+      <animate attributeName="stroke-dashoffset" from="362" to="0" dur="4.842854618647834s" begin="1.3454368256516318s" fill="freeze" repeatCount="indefinite"/></path>
+    <path d="M 414,211 L 268,211 L 268,143 L 120,143" fill="none" stroke="#00ff88" stroke-width="2" stroke-linecap="round" stroke-dasharray="362" stroke-dashoffset="362">
+      <animate attributeName="stroke-dashoffset" from="362" to="0" dur="4.842854618647834s" begin="1.3454368256516318s" fill="freeze" repeatCount="indefinite"/></path>
+    <circle r="3" fill="#00ff88" filter="url(#cg)"><animateMotion dur="4.842854618647834s" begin="1.3454368256516318s" repeatCount="indefinite" fill="freeze"><mpath href="#cp3"/></animateMotion></circle>
+    <path id="cp3" d="M 414,211 L 268,211 L 268,143 L 120,143" fill="none" stroke="none"/>
+    <path d="M 883,169 L 763,169 L 763,140 L 649,140 L 649,140" fill="none" stroke="#cc00cc" stroke-width="6" stroke-linecap="round" opacity="0.3" filter="url(#cg)" stroke-dasharray="263" stroke-dashoffset="263">
+      <animate attributeName="stroke-dashoffset" from="263" to="0" dur="6.925280980503885s" begin="0.3408590150938835s" fill="freeze" repeatCount="indefinite"/></path>
+    <path d="M 883,169 L 763,169 L 763,140 L 649,140 L 649,140" fill="none" stroke="#ff00ff" stroke-width="2" stroke-linecap="round" stroke-dasharray="263" stroke-dashoffset="263">
+      <animate attributeName="stroke-dashoffset" from="263" to="0" dur="6.925280980503885s" begin="0.3408590150938835s" fill="freeze" repeatCount="indefinite"/></path>
+    <circle r="3" fill="#ff00ff" filter="url(#cg)"><animateMotion dur="6.925280980503885s" begin="0.3408590150938835s" repeatCount="indefinite" fill="freeze"><mpath href="#cp4"/></animateMotion></circle>
+    <path id="cp4" d="M 883,169 L 763,169 L 763,140 L 649,140 L 649,140" fill="none" stroke="none"/></g>
+  <text x="450" y="85" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="44" font-weight="700" fill="#ffffff" filter="url(#tg)" letter-spacing="8">NEXUS AGENTS</text>
+  <text x="450" y="117" text-anchor="middle" font-family="'JetBrains Mono',monospace" font-size="14" fill="#cc5500" letter-spacing="4">End Of Line</text>
+  <rect width="900" height="300" rx="12" fill="none" stroke="#ff6600" stroke-width="1" opacity="0.15"/>
 </svg>
