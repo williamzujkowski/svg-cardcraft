@@ -1,0 +1,19 @@
+{
+  "name": "svg-cardcraft",
+  "version": "0.1.0",
+  "description": "Dynamic animated SVG cards for GitHub READMEs — API-driven, configurable, beautiful",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": { "svg-cardcraft": "dist/cli.js" },
+  "scripts": {
+    "build": "tsc",
+    "generate": "node dist/cli.js cardcraft.json"
+  },
+  "keywords": ["svg", "github", "readme", "animated", "cards", "dynamic", "api"],
+  "author": "William Zujkowski",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.9.0"
+  },
+  "engines": { "node": ">=22.0.0" }
+}

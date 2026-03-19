@@ -1,0 +1,54 @@
+{
+  "outputDir": "output",
+  "fetchTimeout": 15000,
+  "cards": [
+    {
+      "type": "hero",
+      "width": 900,
+      "height": 300,
+      "config": {
+        "name": "William Zujkowski",
+        "taglines": [
+          "Security Engineer",
+          "AI Systems Builder",
+          "Homelab Enthusiast",
+          "Dad Joke Connoisseur"
+        ],
+        "subtitle": "Building secure systems for 20+ years",
+        "gradientColors": ["#6366f1", "#8b5cf6", "#ec4899", "#06b6d4"],
+        "particleCount": 50,
+        "links": [
+          { "label": "GitHub", "url": "https://github.com/williamzujkowski" },
+          { "label": "Blog", "url": "https://williamzujkowski.github.io" },
+          { "label": "LinkedIn", "url": "https://linkedin.com/in/williamzujkowski" }
+        ]
+      }
+    },
+    {
+      "type": "stats",
+      "width": 480,
+      "height": 200,
+      "config": {
+        "username": "williamzujkowski",
+        "accentColor": "#8b5cf6"
+      }
+    },
+    {
+      "type": "quote",
+      "width": 600,
+      "height": 160,
+      "config": {
+        "quotes": [
+          { "text": "The best way to predict the future is to invent it.", "author": "Alan Kay" },
+          { "text": "Simplicity is the ultimate sophistication.", "author": "Leonardo da Vinci" },
+          { "text": "First, solve the problem. Then, write the code.", "author": "John Johnson" },
+          { "text": "chmod 777 is not a security strategy.", "author": "Every security engineer" },
+          { "text": "The cloud is just someone else's computer.", "author": "Anonymous sysadmin" },
+          { "text": "In theory, theory and practice are the same.", "author": "Yogi Berra" },
+          { "text": "It works on my machine. Then we'll ship your machine.", "author": "DevOps proverb" }
+        ],
+        "accentColor": "#06b6d4"
+      }
+    }
+  ]
+}
